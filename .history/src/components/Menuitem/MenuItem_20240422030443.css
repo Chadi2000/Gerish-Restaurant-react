@@ -1,0 +1,37 @@
+.app__menuItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    width: 412px;
+    height: 66px;
+    border: 1px solid white;
+}
+
+.app__menuitem-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__menuitem-line h4{
+    font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 23px;
+  line-height: 29.9px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
+.app__menuitem-line div{
+  background: #FAFAFA;
+  width: 119px;
+  height: 2px;
+}
+
+.app__menuitem-line p{
+    color: white;
+}

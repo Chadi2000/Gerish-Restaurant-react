@@ -1,0 +1,22 @@
+.app__menuItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.app__menuitem-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+}
+
+.app__menuItem-line1 h4{
+    color: white;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: var(--font-base);
+}

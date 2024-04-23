@@ -1,0 +1,24 @@
+.app__menuItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.app__menuitem-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.app__menuitem-line h4{
+    font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 23px;
+  line-height: 29.9px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}

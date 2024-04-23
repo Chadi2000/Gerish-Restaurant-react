@@ -1,0 +1,27 @@
+.app__chef-content{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.app__chef-content_quote{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.app__chef-content_quote img{
+    width: 47px;
+    height: 40px;
+    margin: 0 1rem 1rem 0;
+}
+
+.app__chef-sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.app__chef-sign p:first-child{
+    color: var(--color-golden);
+}

@@ -1,0 +1,10 @@
+.app__specialMenu{
+    background: var(--color-black);
+    display: flex;
+    flex-direction: column;    
+}
+.app__specialMenu-title{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
