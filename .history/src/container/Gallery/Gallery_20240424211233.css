@@ -1,0 +1,13 @@
+.app__gallery{
+    display: flex;
+    flex-direction: row;
+    background: var(--color-black);
+    padding: 4rem 0 4rem 6rem;
+}
+
+.app__gallery-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
